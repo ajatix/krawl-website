@@ -10,11 +10,9 @@ const App = () => {
   return (
     <Grommet theme={grommet} full>
       <Box align="center" pad="xlarge" height="small" gap="xsmall" fill>
-        <Box round="large" height="medium">
-          <Image src="/logo.png" fit="cover" />
-        </Box>
+        <Image src="/logo.png" fit="contain" />
         <Heading level={1}>krawl.it</Heading>
-        <Button icon={<Github />} label="GitHub" primary />
+        <Button icon={<Github />} href="https://github.com/ajatix/krawl" label="GitHub" primary />
       </Box>
     </Grommet>
   );
